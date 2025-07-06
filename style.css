@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(135deg, #ffeaf4, #eafaff);
+    font-family: "Comic Sans MS", "Chalkboard SE", cursive;
+    color: #444;
+    text-align: center;
+    margin-top: 100px;
+}
+h1 {
+    font-size: 2.5em;
+    color: #ff77aa;
+    text-shadow: 1px 1px 3px #fff0f5;
+    margin-bottom: 30px;
+}
+button {
+    background: linear-gradient(145deg, #fff0f5, #d0f0ff);
+    border: 1px dashed #ff99cc;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-size: 1.1em;
+    color: #883377;
+    box-shadow: 0 0 8px #ffe4f4;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 12px #ffd6ec;
+}
